@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/express_listitem_sincenow" android:paddingLeft="12.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffbdc4c2" android:id="@id/express_listitem_statustime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffbdc4c1" android:id="@id/express_listitem_statusdesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/express_listitem_sincenow" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

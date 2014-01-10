@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <ImageView android:id="@id/weiboFollowerImage" android:layout_width="100.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
+        <TextView android:id="@id/weiboFollowerName" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="1" />
+        <TextView android:id="@id/weiboFollowerCount" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="2" />
+        <TextView android:id="@id/weiboFriendsCount" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="3" />
+    </TableRow>
+</TableLayout>

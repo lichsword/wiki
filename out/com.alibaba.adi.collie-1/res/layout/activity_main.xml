@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.adi.collie.ui.view.MyRelativeLayout android:id="@id/ContainerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.adi.collie.ui.view.WallpaperView android:id="@id/wallpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.adi.collie.ui.view.UnlockArrow android:layout_gravity="bottom|center" android:id="@id/unlock_arrow" android:src="@drawable/icon_unlock05" style="@style/home_pager_bottom_unlock" />
+    <include layout="@layout/layout_navigation_bar" />
+    <com.alibaba.adi.collie.ui.view.BounceBackViewPager android:id="@id/pager_bounce" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.adi.collie.ui.aslide.content.LockLayout android:id="@id/lockLayout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.alibaba.adi.collie.ui.view.MyRelativeLayout>

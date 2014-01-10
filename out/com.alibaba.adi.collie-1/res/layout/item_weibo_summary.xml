@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/weiboSummaryLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/icon_weibo" style="@style/system_summary_image" />
+        <TextView android:id="@id/weiboAccountInfo" android:text="@string/weibo_title" style="@style/system_summary_text" />
+        <TextView android:id="@id/weiboSummaryCount" android:text="@string/weibo_msg_count" style="@style/system_summary_count_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.adi.collie.ui.view.MyRelativeLayout android:id="@id/toolboxContainer" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="800.0dip" android:layout_marginTop="-800.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/toolbar_camera_button" android:clickable="true" android:src="@drawable/toolbox_camera" android:scaleType="center" style="@style/home_toolbox_button" />
+        <com.alibaba.adi.collie.ui.gadgets.FlashlightWidget android:gravity="center" android:id="@id/toolbar_light_button" android:button="@drawable/flashlight_button" android:scaleType="center" style="@style/home_toolbox_button" />
+        <ImageView android:id="@id/toolbar_scan_button" android:src="@drawable/toolbox_scan" android:scaleType="center" style="@style/home_toolbox_button" />
+        <RelativeLayout style="@style/home_toolbox_button">
+            <ImageView android:id="@id/toolbar_setting_button" android:background="@drawable/home_toolbox_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/toolbox_setting" android:scaleType="center" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/toolbar_upgrade_image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_setting_mark" android:layout_alignTop="@id/toolbar_setting_button" android:layout_alignRight="@id/toolbar_setting_button" style="@style/home_pager_bottom_mark_img" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.alibaba.adi.collie.ui.view.MyRelativeLayout>

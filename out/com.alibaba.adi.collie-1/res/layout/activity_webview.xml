@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/BgImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <include layout="@layout/layout_setting_banner" />
+    <LinearLayout style="@style/setting_panel_wrap">
+        <RelativeLayout style="@style/setting_activity_header">
+            <Button android:id="@id/BackImageView" android:text="@string/adi_lock_question_title" android:onClick="onClick" style="@style/setting_header_title" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/WebLoadingProgressBar" android:background="@anim/news_joke_loading_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <WebView android:scrollbarThumbVertical="@drawable/scrollbar" android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

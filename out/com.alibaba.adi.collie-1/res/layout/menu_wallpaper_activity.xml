@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/wallpaper_dialog_menu"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/menu_wp_add" android:layout_weight="1.0" android:onClick="onClick" style="@style/wallpaper_dialog_menu_item">
+        <ImageView android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_wallpaper_add" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/setting_wallpaper_popup_add" />
+    </LinearLayout>
+    <ImageView android:background="@color/white_alph_40" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/menu_wp_del" android:layout_weight="1.0" android:onClick="onClick" style="@style/wallpaper_dialog_menu_item">
+        <ImageView android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_wallpaper_del" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/setting_wallpaper_popup_remove" />
+    </LinearLayout>
+</LinearLayout>

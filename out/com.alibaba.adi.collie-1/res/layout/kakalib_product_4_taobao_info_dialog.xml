@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#fff9f9f9" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/product_loadingImageView" android:layout_width="@dimen/kakalib_product_icon_size" android:layout_height="@dimen/kakalib_product_icon_size" android:src="@drawable/kakalib_goods_icon" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/textSizeTitle" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/dialog_product_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="text" android:maxLines="2" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/offlinepricecontainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSizeContent" android:textStyle="bold" android:textColor="#ff777777" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kakalib_offline_price" />
+            <TextView android:textSize="@dimen/textSizeContent" android:typeface="monospace" android:textColor="#ffff0000" android:id="@id/product_offline_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/onlinepricecontainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSizeContent" android:textStyle="bold" android:textColor="#ff777777" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kakalib_online_taobao_price" />
+            <TextView android:textSize="@dimen/textSizeContent" android:typeface="monospace" android:textColor="#ffff0000" android:id="@id/product_online_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <TextView android:textColor="#ffffffff" android:id="@id/product_online_price_hint" android:background="@drawable/kakalib_bg_product_price_tip" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/kakalib_icon_arrow" />
+</LinearLayout>

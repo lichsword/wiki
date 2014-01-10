@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left|center" android:id="@id/img_taobao" android:background="@drawable/qr_scan_express" android:visibility="invisible" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="36.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/txt_expressname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

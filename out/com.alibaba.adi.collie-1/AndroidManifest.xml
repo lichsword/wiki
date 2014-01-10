@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="31" android:versionName="1.3.1" package="com.alibaba.adi.collie"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <permission android:name="com.ut.permission.DEVICE_STATE" />
+    <uses-permission android:name="com.ut.permission.DEVICE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.taobao.taobao.permission.agoo" />
+    <permission android:name="org.agoo.android.permission.MESSAGE" />
+    <uses-permission android:name="org.agoo.android.permission.MESSAGE" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.alibaba.adi.collie.CoreApplication" android:persistent="true" android:debuggable="true" android:allowBackup="true" android:largeHeap="true">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="470f820ac21dbc2f226a81a20aed0e5f" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.alibaba.adi.collie.ui.MainActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.alibaba.adi.collie.ui.FragmentPagerActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:label="@string/launcher_name" android:name="com.alibaba.adi.collie.ui.LockLauncherActivity" android:taskAffinity="com.alibaba.adi.collie.ui.LockLauncherActivity" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.UserGuideActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name" android:name="com.alibaba.adi.collie.ui.settings.SettingsPreferenceActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.VersionActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.PageManagerActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.PrivacyActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.AboutActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.weather.ChoiceCityActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.AboutActivity$CommonActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.FeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.system.BindAccountsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.system.BindWeiboActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.system.BindTaobaoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.UnbindDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.ExitLockDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.FeedbackSuccessDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.FeedbackFailedDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.ShowPictureModeDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.PasswordErrorDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.WallpaperFrequencyDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.CustomDialog" android:name="com.alibaba.adi.collie.ui.settings.dialog.RemoveDBLockDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.wallpaperx.WallpaperActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.wallpaperx.WallpaperViewActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.wallpaperx.WallpaperDelActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="com.alibaba.adi.collie.ui.system.SystemNoticeActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:label="二维码扫描" android:name="com.alibaba.adi.collie.ui.gadgets.QRCode.QRCodeScanActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar" android:label="@string/kakalib_app_name" android:name="com.etao.kakalib.KakaLibProductResultActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.LockPatternActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.LockChooseActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.LockNumberActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.ImageCropActivity" android:screenOrientation="portrait" android:hardwareAccelerated="false" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.FAQActivity" android:screenOrientation="portrait" android:hardwareAccelerated="false" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.push.WebGameActivity" android:screenOrientation="portrait" android:hardwareAccelerated="false" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.push.WebNewsActivity" android:screenOrientation="portrait" android:hardwareAccelerated="false" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.settings.DisableHomeActivity" android:screenOrientation="portrait" android:hardwareAccelerated="false" />
+        <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent100583790" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.alibaba.adi.collie.ui.CameraActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.etao.kakalib.express.KakaLibExpressActivity" android:screenOrientation="portrait" />
+        <service android:name="com.taobao.statistic.module.data.Yolanda" android:process=":utremote" />
+        <receiver android:name="com.ut.device.BQueryWhoHasOne" android:permission="com.ut.permission.DEVICE_STATE" android:exported="true">
+            <intent-filter>
+                <action android:name="UT.QueryWhoHasOne" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ut.device.BFoundIt" android:permission="com.ut.permission.DEVICE_STATE" android:exported="true">
+            <intent-filter>
+                <action android:name="UT.FoundIT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ut.device.BQueryWhoHasOne" android:permission="com.ut.permission.DEVICE_STATE" android:exported="true">
+            <intent-filter>
+                <action android:name="UT.QueryWhoHasOne" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ut.device.BFoundIt" android:permission="com.ut.permission.DEVICE_STATE" android:exported="true">
+            <intent-filter>
+                <action android:name="UT.FoundIT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.alibaba.adi.collie.broadcast.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.alibaba.adi.collie.broadcast.NetworkStatusReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.taobao.android.sso.internal.PidGetterService" android:exported="true" />
+        <service android:name="com.taobao.android.sso.internal.AuthenticationService" android:permission="android.permission.ACCOUNT_MANAGER" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+            <meta-data android:name="android.accounts.AccountAuthenticator.customTokens" android:value="true" />
+            <meta-data android:name="com.taobao.android.sso.Version" android:value="3" />
+        </service>
+        <service android:label="AdiKeyGuardService" android:name="com.alibaba.adi.collie.service.AdiKeyGuardService" android:exported="true" android:process=":keyguard">
+            <intent-filter>
+                <action android:name="com.alibaba.adi.collie.AdiKeyGuardService" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </service>
+        <service android:name="com.alibaba.adi.collie.service.AdiScheduledNetworkService" />
+        <service android:name="com.taobao.security.proc.ProcService" android:process=":security" />
+        <receiver android:name="com.alibaba.adi.collie.broadcast.WallpaperChangeBroadcaseReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.alibaba.adi.collie.wallpaper.change" />
+                <action android:name="com.alibaba.adi.collie.wallpaper.blurCompleted" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.alibaba.adi.collie.broadcast.UpgradeDownloadCompletedReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.taobao.agoo.RegistrationReceiver" android:process=":keyguard">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.taobao.agoo.PushServiceReceiver" android:process=":keyguard">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.alibaba.adi.collie.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RE_ELECTION_V2" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.taobao.agoo.PushService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.alibaba.adi.collie.intent.action.START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.alibaba.adi.collie.intent.action.COCKROACH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.PING" />
+            </intent-filter>
+        </service>
+        <service android:name="org.android.agoo.service.ElectionService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.ELECTION_V2" />
+            </intent-filter>
+        </service>
+        <service android:name="com.alibaba.adi.collie.TaobaoIntentService" android:process=":keyguard" />
+        <service android:name="com.taobao.gcm.GCMIntentService" />
+        <receiver android:name="com.taobao.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.taobao.taobao" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.taobao.intent.action.COMMAND" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.taobao.statistic.module.data.Yolanda" android:process=":utremote" />
+    </application>
+    <permission-group android:label="@string/permission_group_taobao_account" android:icon="@drawable/ic_sso_taobao_account" android:name="com.taobao.permission-group.ACCOUNT" android:description="@string/permission_group_taobao_account_desc" />
+    <permission android:label="@string/permission_use_taobao_account_credentials" android:name="com.taobao.permission.USE_CREDENTIALS" android:protectionLevel="dangerous" android:permissionGroup="com.taobao.permission-group.ACCOUNT" android:description="@string/permission_use_taobao_account_credentials_desc" />
+    <permission android:label="@string/permission_update_taobao_account_credentials" android:name="com.taobao.permission.UPDATE_CREDENTIALS" android:protectionLevel="dangerous" android:permissionGroup="com.taobao.permission-group.ACCOUNT" android:description="@string/permission_update_taobao_account_credentials_desc" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.taobao.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.taobao.permission.UPDATE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+</manifest>

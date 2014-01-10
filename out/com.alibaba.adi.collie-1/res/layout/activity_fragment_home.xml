@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.adi.collie.ui.aslide.home.HomeSlideLayout android:id="@id/slideLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/home_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.adi.collie.ui.view.PushTopView android:id="@id/PushTopView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/home_push_notify_top" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/home_container">
+            <TextView android:textStyle="bold" android:id="@id/hour" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/home_time_container_hour" />
+            <LinearLayout android:id="@id/date_intreface" style="@style/home_date_container">
+                <TextView android:id="@id/date" android:text="" style="@style/home_date_container_date" />
+                <TextView android:id="@id/week" android:text="" style="@style/home_date_container_week" />
+            </LinearLayout>
+            <com.alibaba.adi.collie.ui.view.FlowLayout android:id="@id/city_info_intreface" android:visibility="visible" f:horizontalSpacing="12.0dip" f:verticalSpacing="6.0dip" f:orientation="horizontal" f:debugDraw="false" style="@style/home_city_container"
+              xmlns:f="http://schemas.android.com/apk/res/com.alibaba.adi.collie"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@id/city" style="@style/home_city_container_city" />
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/weather_details" android:text="" style="@style/home_city_container_weather" />
+                    <TextView android:id="@id/temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/home_city_container_temperature" />
+                    <ImageView android:layout_gravity="bottom" android:id="@id/temperature_line" android:background="@drawable/vertical_line" android:layout_width="wrap_content" android:layout_height="@dimen/home_city_container_temperature_line_layout_height" android:layout_marginBottom="@dimen/home_city_container_temperature_line_layout_marginTop" style="@style/home_city_container_temperature_line" />
+                    <TextView android:id="@id/l_h_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/home_city_container_l_h_temperature" />
+                </LinearLayout>
+            </com.alibaba.adi.collie.ui.view.FlowLayout>
+            <com.alibaba.adi.collie.ui.view.PushCenterView android:id="@id/PushCenterView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/home_push_notify_center" />
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/shortcut_intreface" style="@style/home_shortcut_container">
+                <LinearLayout android:id="@id/notice_tao_container" android:visibility="gone" style="@style/home_shortcut_container_iconContainer">
+                    <ImageView android:id="@id/taobao_icon" android:src="@drawable/icons_notice_tao" style="@style/home_shortcut_container_taobaoicon" />
+                    <TextView android:id="@id/TaobaoNumTextView" android:text="0" style="@style/home_shortcut_container_text" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/notice_phone_container" android:visibility="gone" style="@style/home_shortcut_container_iconContainer">
+                    <ImageView android:id="@id/call_icon" android:src="@drawable/icons_notice_phone" style="@style/home_shortcut_container_callicon" />
+                    <TextView android:id="@id/CallNumTextView" android:text="0" style="@style/home_shortcut_container_text" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/notice_sms_container" android:visibility="gone" style="@style/home_shortcut_container_iconContainer">
+                    <ImageView android:id="@id/sms_icon" android:src="@drawable/icons_notice_sms" style="@style/home_shortcut_container_smsicon" />
+                    <TextView android:id="@id/SmsNumTextView" android:text="0" style="@style/home_shortcut_container_text" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/notice_upgrade_container" android:visibility="gone" style="@style/home_shortcut_container_iconContainer">
+                    <TextView android:layout_gravity="center" android:id="@id/upgrade_icon" android:text="1" android:drawableLeft="@drawable/home_notice_update" android:drawablePadding="5.0dip" style="@style/home_shortcut_container_upgrade_icon" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/music_intreface" android:visibility="gone" android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/home_music_container">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/play_pre_button" android:layout_height="fill_parent" android:src="@drawable/icons_music_prev" android:scaleType="center" style="@style/home_music_container_pre_button" />
+                <ImageView android:id="@id/play_pause_button" android:background="@drawable/common_touch_bg" android:layout_height="fill_parent" android:src="@drawable/icons_music_play" android:scaleType="center" android:layout_toRightOf="@id/play_pre_button" android:layout_alignParentTop="true" style="@style/home_music_container_play_button" />
+                <ImageView android:id="@id/play_next_button" android:layout_height="fill_parent" android:src="@drawable/icons_music_next" android:scaleType="center" android:layout_toRightOf="@id/play_pause_button" android:layout_alignParentTop="true" style="@style/home_music_container_next_button" />
+            </RelativeLayout>
+            <TextView android:id="@id/CharginDescTextView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:drawableLeft="@drawable/icon_charge" android:drawablePadding="4.0dip" android:layout_below="@id/city_info_intreface" android:layout_centerHorizontal="true" style="@style/home_charging_container_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.alibaba.adi.collie.ui.aslide.home.ToolBoxLayout android:id="@id/toolboxLayout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.alibaba.adi.collie.ui.aslide.home.HomeSlideLayout>

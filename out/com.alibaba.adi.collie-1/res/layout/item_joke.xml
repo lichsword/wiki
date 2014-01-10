@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/none" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/joke_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/JokeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ContentTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="@color/joke_text_shadow_color" style="@style/joke_text_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ImageLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/TitleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/joke_image_text_style" />
+        <com.alibaba.adi.collie.ui.view.AutoScaleImageView android:id="@id/ImageView" android:drawingCacheQuality="low" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/joke_image_style" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/ImageLoadingLayout" android:background="@color/joke_image_loading_background" android:layout_width="fill_parent" android:layout_height="@dimen/joke_image_loading_height">
+            <ImageView android:layout_gravity="center" android:id="@id/ImageLoadingBackground" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_loading" />
+            <ImageView android:layout_gravity="center" android:id="@id/ImageLoadingProgressBar" android:background="@anim/news_joke_loading_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

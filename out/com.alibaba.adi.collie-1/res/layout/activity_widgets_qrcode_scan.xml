@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ContainerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/fragmentScan" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.etao.kakalib.CaptureCodeFragment" />
+    <com.alibaba.adi.collie.ui.lock.view.LockPatternViewLinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/QrScanKeyLockPattern" android:background="@drawable/bg_dark_repeat_qr_scan" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.adi.collie.ui.lock.view.LockNumViewLinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/QrScanKeyLockNum" android:background="@drawable/bg_dark_repeat_qr_scan" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="top|left|center" style="@style/setting_activity_header">
+        <Button android:id="@id/BackImageView" android:text="@string/qrcode_scan_title_text" android:onClick="onClick" style="@style/setting_header_title" />
+    </FrameLayout>
+</FrameLayout>

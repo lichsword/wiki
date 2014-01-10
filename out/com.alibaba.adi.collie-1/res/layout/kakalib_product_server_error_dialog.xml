@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="14.0dip" style="@style/kakalibDialogRealBgView">
+        <TextView android:textSize="@dimen/textSizeContent" android:textColor="@color/kakalib_color_black" android:gravity="center" android:id="@id/textViewProductErrorTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="text" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/textSizeContent" android:textColor="@color/kakalib_color_gray" android:gravity="center" android:id="@id/textViewProductErrorBarcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="text" android:layout_below="@id/textViewProductErrorTitle" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/textSizeContent" android:textColor="@color/kakalib_color_black" android:gravity="center" android:id="@id/buttonProductError2Search" android:background="@drawable/kakalib_product_2_search_selector" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/kakalib_search_by_keyword" android:layout_below="@id/textViewProductErrorBarcode" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

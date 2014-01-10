@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_posterscanning_hud_failsemimodal" android:background="@drawable/kakalib_poster_shape_semimodal_blackbg" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="260.0dip" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/kakalib_poster_global_logo_poster" android:scaleType="centerInside" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="1.0dip" android:text="@string/kakalib_poster_decode_failed" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/kakalib_poster_advise" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="5.0dip" android:text="@string/kakalib_poster_advise1" />
+    </LinearLayout>
+</LinearLayout>

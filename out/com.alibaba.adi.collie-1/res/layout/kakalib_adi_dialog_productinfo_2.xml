@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/qr_dialog_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/kakalib_adi_title_product" style="@style/qr_dialog_title" />
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_title_border" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/qr_dialog_container">
+        <com.etao.kakalib.views.RoundImageView android:id="@id/product_loadingImageView" android:layout_width="@dimen/qr_product_icon_size" android:layout_height="@dimen/qr_product_icon_size" android:layout_marginRight="12.0dip" android:scaleType="centerInside" />
+        <ImageView android:id="@id/imageViewQRUrlRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/qr_scan_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:ellipsize="end" android:id="@id/dialog_product_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2" android:layout_toLeftOf="@id/imageViewQRUrlRight" android:layout_toRightOf="@id/product_loadingImageView" android:layout_alignTop="@id/product_loadingImageView" style="@style/qr_dialog_text_content" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/kakalib_online_taobao_price" android:layout_below="@id/dialog_product_title" android:layout_alignLeft="@id/dialog_product_title" style="@style/qr_dialog_text_content_small" />
+        <TextView android:id="@id/product_online_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/qr_dialog_product_price" />
+        <TextView android:id="@id/go_to_tao_search" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:text="@string/kakalib_go_to_tao_search" android:lines="2" style="@style/qr_dialog_text_content_info" />
+        <TextView android:ellipsize="end" android:id="@id/product_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_toRightOf="@id/product_loadingImageView" style="@style/qr_dialog_text_content_info" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_ctrl_border" />
+    <Button android:id="@id/CancelButton" android:text="@string/cancel" style="@style/qr_dialog_cancel_button" />
+</LinearLayout>

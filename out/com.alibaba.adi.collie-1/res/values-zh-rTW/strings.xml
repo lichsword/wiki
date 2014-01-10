@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kakalib_app_name">火眼Demo</string>
+    <string name="kakalib_msg_camera_framework_bug">攝像頭異常，請重新啟動設備後再試</string>
+    <string name="kakalib_online_price">網購價</string>
+    <string name="kakalib_online_taobao_price">淘寶價</string>
+    <string name="kakalib_offline_price">超市價</string>
+    <string name="kakalib_save">省%1$s元</string>
+    <string name="kakalib_pieces">多件裝</string>
+    <string name="kakalib_go_to_tao_search">"尚未找到精確結果
+點擊前往淘寶網搜索"</string>
+    <string name="kakalib_ugc_will_update">近期將更新該產品信息</string>
+    <string name="kakalib_ugc_bar">條碼</string>
+    <string name="kakalib_server_error">伺服器錯誤！</string>
+    <string name="kakalib_net_error">網路異常</string>
+    <string name="kakalib_kl_button_decode_poster">掃描海報</string>
+    <string name="kakalib_kl_button_decode_qr">掃描QR</string>
+    <string name="kakalib_qr_url_text">二維碼內容：</string>
+    <string name="kakalib_copyed">內容已復制</string>
+    <string name="kakalib_copyError">複製失敗</string>
+    <string name="kakalib_huoyan_ad_open">打開火眼</string>
+    <string name="kakalib_huoyan_ad_download">免費下載</string>
+    <string name="kakalib_url_safe_checking">正在檢測網址是否安全</string>
+    <string name="kakalib_url_black">這是惡意網址，會帶來安全風險，請不要訪問。</string>
+    <string name="kakalib_url_white">可信任安全網址</string>
+    <string name="kakalib_url_unknow">非淘寶網址，請謹慎訪問</string>
+    <string name="kakalib_no_image_obtain">" 無法取得圖片"</string>
+    <string name="kakalib_network_error">無法連結，請設置網絡</string>
+    <string name="kakalib_no_qr_obtain">找不到二維碼</string>
+    <string name="kakalib_unknow_code">發現未知商品條碼，我們會盡快收錄</string>
+    <string name="kakalib_product_not_found">未搜索到商品結果,點擊修改關鍵詞搜索</string>
+    <string name="kakalib_search_by_keyword">通過關鍵詞搜索</string>
+    <string name="kakalib_kaka_name">一淘火眼</string>
+    <string name="kakalib_kaka_slogan">掃碼就用一淘火眼</string>
+    <string name="kakalib_kaka_downcount">(300萬下載)</string>
+    <string name="kakalib_slogan_scan_barcode">掃條碼, 超市網購價格全知道</string>
+    <string name="kakalib_slogan_scan_poster">掃雜誌, 時尚潮品看到就能買到</string>
+    <string name="kakalib_slogan_scan_butterfly">抓蝴蝶, 交友約會天天搶優惠</string>
+    <string name="kakalib_ad_free_download">免費下載</string>
+    <string name="kakalib_ad_poweredby">"POWERED BY 
+掃碼就用一淘火眼"</string>
+    <string name="kakalib_poster_decode_failed">識別失敗</string>
+    <string name="kakalib_poster_advise">" 請將海報或者雜誌置於框內"</string>
+    <string name="kakalib_poster_advise1">可提高識別率</string>
+    <string name="kakalib_data_from_kaka">由一淘火眼合作支持</string>
+    <string name="kakalib_data_by_kaka">以上數據由一淘火眼提供，網購、超市全能比價。</string>
+    <string name="kakalib_help_advise">將商品條碼、二維碼置於框內，離鏡頭10cm左右，可自動識別。</string>
+    <string name="kakalib_help_barcode">" 條碼"</string>
+    <string name="kakalib_help_qr">二維碼</string>
+    <string name="kakalib_kaka_profession_scan">專業掃描</string>
+    <string name="kakalib_bar_qr_code">" 條碼·二維碼"</string>
+    <string name="kakalib_unkown_code_as_express">作為快遞單號查詢:</string>
+    <string name="kakalib_unkown_code_type">發現非標準商品條碼:</string>
+    <string name="kakalib_express_no">快遞單號</string>
+    <string name="kakalib_please_choise">請選擇:</string>
+    <string name="kakalib_express_code_type0">該運單存在多個快遞公司</string>
+    <string name="kakalib_express_code_type1">運單號</string>
+    <string name="kakalib_express_info">快遞信息</string>
+</resources>

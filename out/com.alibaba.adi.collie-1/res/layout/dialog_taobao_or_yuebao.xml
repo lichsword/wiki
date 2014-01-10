@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_dialog_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialog_taobao_or_yuebao_title" android:text="@string/dialog_yuebao_title" style="@style/setting_dialog_title" />
+    <View style="@style/setting_dialog_title_border" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/setting_dialog_container">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/dialog_taobao_or_yuebao_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_yuebao_content" style="@style/setting_dialog_text_content_info" />
+    </RelativeLayout>
+    <View style="@style/setting_dialog_ctrl_border" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/taobao_or_yuebao_cancel" android:layout_width="0.0dip" android:layout_height="54.0dip" android:text="@string/dialog_yuebao_cancel" android:layout_weight="1.0" style="@style/setting_dialog_cancel_button" />
+        <View style="@style/setting_dialog_button_split" />
+        <Button android:id="@id/taobao_or_yuebao_install" android:layout_width="0.0dip" android:layout_height="54.0dip" android:text="@string/dialog_yuebao_install" android:layout_weight="1.0" style="@style/setting_dialog_button" />
+    </LinearLayout>
+</LinearLayout>

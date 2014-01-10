@@ -1,0 +1,126 @@
+.class final Lcom/google/zxing/client/result/VEventResultParser;
+.super Lcom/google/zxing/client/result/ResultParser;
+.source "VEventResultParser.java"
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 29
+    invoke-direct {p0}, Lcom/google/zxing/client/result/ResultParser;-><init>()V
+
+    .line 30
+    return-void
+.end method
+
+.method public static parse(Lcom/google/zxing/Result;)Lcom/google/zxing/client/result/CalendarParsedResult;
+    .locals 12
+    .parameter "result"
+
+    .prologue
+    const/4 v4, 0x1
+
+    const/4 v11, 0x0
+
+    .line 33
+    invoke-virtual {p0}, Lcom/google/zxing/Result;->getText()Ljava/lang/String;
+
+    move-result-object v8
+
+    .line 34
+    .local v8, rawText:Ljava/lang/String;
+    if-nez v8, :cond_0
+
+    move-object v0, v11
+
+    .line 52
+    :goto_0
+    return-object v0
+
+    .line 37
+    :cond_0
+    const-string v0, "BEGIN:VEVENT"
+
+    invoke-virtual {v8, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v10
+
+    .line 38
+    .local v10, vEventStart:I
+    if-gez v10, :cond_1
+
+    move-object v0, v11
+
+    .line 39
+    goto :goto_0
+
+    .line 41
+    :cond_1
+    const-string v0, "END:VEVENT"
+
+    invoke-virtual {v8, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v9
+
+    .line 42
+    .local v9, vEventEnd:I
+    if-gez v9, :cond_2
+
+    move-object v0, v11
+
+    .line 43
+    goto :goto_0
+
+    .line 46
+    :cond_2
+    const-string v0, "SUMMARY"
+
+    invoke-static {v0, v8, v4}, Lcom/google/zxing/client/result/VCardResultParser;->matchSingleVCardPrefixedField(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 47
+    .local v1, summary:Ljava/lang/String;
+    const-string v0, "DTSTART"
+
+    invoke-static {v0, v8, v4}, Lcom/google/zxing/client/result/VCardResultParser;->matchSingleVCardPrefixedField(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 48
+    .local v2, start:Ljava/lang/String;
+    const-string v0, "DTEND"
+
+    invoke-static {v0, v8, v4}, Lcom/google/zxing/client/result/VCardResultParser;->matchSingleVCardPrefixedField(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 50
+    .local v3, end:Ljava/lang/String;
+    :try_start_0
+    new-instance v0, Lcom/google/zxing/client/result/CalendarParsedResult;
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    invoke-direct/range {v0 .. v6}, Lcom/google/zxing/client/result/CalendarParsedResult;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    .line 51
+    :catch_0
+    move-exception v7
+
+    .local v7, iae:Ljava/lang/IllegalArgumentException;
+    move-object v0, v11
+
+    .line 52
+    goto :goto_0
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="@dimen/dialog_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="@dimen/dialog_width" android:layout_height="wrap_content" style="@style/kakalibDialogRealBgView">
+        <ImageView android:id="@id/qr_product_img" android:layout_width="@dimen/dialog_icon_size" android:layout_height="@dimen/dialog_icon_size" android:layout_marginTop="10.0dip" android:src="@drawable/qr_scan_text" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/textSizeContent" android:textColor="@color/white" android:id="@id/dailog_qr_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+        <ImageButton android:id="@id/qr_text_copy" android:background="@drawable/kakalib_qr_copy_selector" android:paddingLeft="10.0dip" android:paddingRight="9.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="27.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:background="#55ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/CancelButton" android:background="@drawable/common_touch_bg" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/cancel" />
+</LinearLayout>

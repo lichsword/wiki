@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/qr_dialog_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/kakalib_adi_title_product" style="@style/qr_dialog_title" />
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_title_border" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/qr_dialog_container">
+        <TextView android:gravity="center" android:id="@id/textViewProductErrorTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="text" android:layout_centerHorizontal="true" style="@style/qr_dialog_text_content" />
+        <TextView android:id="@id/textViewProductErrorBarcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="text" android:layout_below="@id/textViewProductErrorTitle" android:layout_centerHorizontal="true" style="@style/qr_dialog_text_content_small" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_ctrl_border" />
+    <Button android:id="@id/CancelButton" android:text="@string/cancel" style="@style/qr_dialog_cancel_button" />
+</LinearLayout>

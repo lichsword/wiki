@@ -1,0 +1,57 @@
+.class Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide$1;
+.super Ljava/lang/Object;
+.source "SystemClearConfirmedGuide.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide;->show(Ljava/lang/Integer;Landroid/view/View$OnClickListener;Landroid/view/View$OnClickListener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide;
+
+
+# direct methods
+.method constructor <init>(Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide;)V
+    .locals 0
+    .parameter
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide$1;->this$0:Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide;
+
+    .line 82
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 3
+    .parameter "view"
+
+    .prologue
+    .line 85
+    iget-object v0, p0, Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide$1;->this$0:Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v0, v1, v2}, Lcom/alibaba/adi/collie/ui/system/SystemClearConfirmedGuide;->finish(IZ)V
+
+    .line 86
+    return-void
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/TopNavigationLayout" android:layout_width="fill_parent" android:layout_height="@dimen/settings_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.adi.collie.ui.view.TinyTimeView android:textSize="13.0sp" android:textColor="#bfffffff" android:id="@id/TinyTimeView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="-4.0dip" />
+    <com.alibaba.adi.collie.ui.view.PageIndication android:id="@id/PageIndication" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/home_page_indication_height" android:layout_marginTop="-6.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.alibaba.adi.collie.ui.view.BatteryImageView android:id="@id/BatteryStateImageView" android:background="@drawable/icon_normal_100" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_alignParentRight="true" />
+    <View android:layout_alignParentBottom="true" style="@style/setting_header_divide" />
+</RelativeLayout>

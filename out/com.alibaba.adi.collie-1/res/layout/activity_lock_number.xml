@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/BgImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <include layout="@layout/layout_setting_banner" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/setting_panel_wrap">
+        <RelativeLayout style="@style/setting_activity_header">
+            <Button android:id="@id/BackImageView" android:onClick="onClick" style="@style/setting_header_title" />
+        </RelativeLayout>
+        <com.alibaba.adi.collie.ui.view.BounceScrollView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.adi.collie.ui.lock.view.LockNumViewLinearLayout android:id="@id/lock_num" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.alibaba.adi.collie.ui.view.BounceScrollView>
+    </LinearLayout>
+</FrameLayout>

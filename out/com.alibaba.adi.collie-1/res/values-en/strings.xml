@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kakalib_app_name">火眼Demo</string>
+    <string name="kakalib_msg_camera_framework_bug">Unable to connect to camera, restart the device and try again</string>
+    <string name="kakalib_online_price">Online price</string>
+    <string name="kakalib_online_taobao_price">Taobao price</string>
+    <string name="kakalib_offline_price">Supermarket price</string>
+    <string name="kakalib_save">"Save ￥%1$s "</string>
+    <string name="kakalib_pieces">Multi-pack</string>
+    <string name="kakalib_go_to_tao_search">"Unable to find accurate results
+Search in Taobao.com"</string>
+    <string name="kakalib_ugc_will_update">This information will be updated soon</string>
+    <string name="kakalib_ugc_bar">Barcodes</string>
+    <string name="kakalib_server_error">Server Error</string>
+    <string name="kakalib_net_error">Unable to connect to network</string>
+    <string name="kakalib_kl_button_decode_poster">Poster analysis</string>
+    <string name="kakalib_kl_button_decode_qr">Scanning QR</string>
+    <string name="kakalib_qr_url_text">QR code content:</string>
+    <string name="kakalib_copyed">Copied to clipboard</string>
+    <string name="kakalib_copyError">Copying to clipboard failed</string>
+    <string name="kakalib_huoyan_ad_open">Open Fire-Eye</string>
+    <string name="kakalib_huoyan_ad_download">Free Download</string>
+    <string name="kakalib_url_safe_checking">verifying URL ...</string>
+    <string name="kakalib_url_black">The URL contains a malicious website, please do not open.</string>
+    <string name="kakalib_url_white">Trusted Website</string>
+    <string name="kakalib_url_unknow">Not Taobao.com site, please open at your discretion</string>
+    <string name="kakalib_no_image_obtain">Unable to load picture</string>
+    <string name="kakalib_network_error">Network is unavailable, please set up the network</string>
+    <string name="kakalib_no_qr_obtain">Unable to find QR code</string>
+    <string name="kakalib_unknow_code">This barcode is not in our product database, we will record it soon.</string>
+    <string name="kakalib_product_not_found">Unable to find results, click to modify keyword and try again</string>
+    <string name="kakalib_search_by_keyword">Searching by keywords</string>
+    <string name="kakalib_kaka_name">"Etao Fire-Eye "</string>
+    <string name="kakalib_kaka_slogan">Scan using Etao Fire-Eye</string>
+    <string name="kakalib_kaka_downcount">(3Millions downloads)</string>
+    <string name="kakalib_slogan_scan_barcode">"  Scanning Barcode to find out Online and Supermarket prices"</string>
+    <string name="kakalib_slogan_scan_poster">"  Scan magazines, What you see in fashion magazines is what you can buy"</string>
+    <string name="kakalib_slogan_scan_butterfly">"  Catch butterflies, Dates! Coupons!"</string>
+    <string name="kakalib_ad_free_download">Free Download</string>
+    <string name="kakalib_ad_poweredby">"POWERED BY 
+Scanning Using Etao Fire-Eye"</string>
+    <string name="kakalib_poster_decode_failed">Recognition Failed</string>
+    <string name="kakalib_poster_advise">Please adjust to fit poster or magazine right into the box</string>
+    <string name="kakalib_poster_advise1">To improve the recognition</string>
+    <string name="kakalib_data_from_kaka">Powered by 一淘火眼</string>
+    <string name="kakalib_data_by_kaka">The above data is provided by Etao Fire-Eye, online shopping, supermarket price comparison.</string>
+    <string name="kakalib_help_advise">"Fit QR code, Barcode into the box, so that they can be scanned. "</string>
+    <string name="kakalib_help_barcode">Barcodes</string>
+    <string name="kakalib_help_qr">QR codes</string>
+    <string name="kakalib_kaka_profession_scan">Professional Scanning</string>
+    <string name="kakalib_bar_qr_code">QR code, Barcode</string>
+    <string name="kakalib_unkown_code_as_express">Query as Parcel tracking:</string>
+    <string name="kakalib_unkown_code_type">Found unknown product code:</string>
+    <string name="kakalib_express_no">Tracking No.</string>
+    <string name="kakalib_please_choise">Please choose:</string>
+    <string name="kakalib_express_code_type0">Found multiple tracking No.</string>
+    <string name="kakalib_express_code_type1">Tracking No.</string>
+    <string name="kakalib_express_info">Tracking Information</string>
+</resources>

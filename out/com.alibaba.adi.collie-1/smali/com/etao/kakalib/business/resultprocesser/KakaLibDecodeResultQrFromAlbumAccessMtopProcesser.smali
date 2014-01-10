@@ -1,0 +1,59 @@
+.class public Lcom/etao/kakalib/business/resultprocesser/KakaLibDecodeResultQrFromAlbumAccessMtopProcesser;
+.super Lcom/etao/kakalib/business/resultprocesser/KakaLibDecodeResultAccessMtopProcesser;
+.source "KakaLibDecodeResultQrFromAlbumAccessMtopProcesser.java"
+
+
+# instance fields
+.field private barCodeDialogHelper:Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;
+
+
+# direct methods
+.method public constructor <init>(Lcom/etao/kakalib/KakaLibScanController;Landroid/support/v4/app/FragmentActivity;)V
+    .locals 1
+    .parameter "scanController"
+    .parameter "fragmentActivity"
+
+    .prologue
+    .line 16
+    invoke-direct {p0, p1, p2}, Lcom/etao/kakalib/business/resultprocesser/KakaLibDecodeResultAccessMtopProcesser;-><init>(Lcom/etao/kakalib/KakaLibScanController;Landroid/support/v4/app/FragmentActivity;)V
+
+    .line 17
+    new-instance v0, Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;
+
+    invoke-direct {v0, p2, p1}, Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;-><init>(Landroid/support/v4/app/FragmentActivity;Lcom/etao/kakalib/KakaLibScanController;)V
+
+    iput-object v0, p0, Lcom/etao/kakalib/business/resultprocesser/KakaLibDecodeResultQrFromAlbumAccessMtopProcesser;->barCodeDialogHelper:Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;
+
+    .line 18
+    return-void
+.end method
+
+
+# virtual methods
+.method public decodeFailed(Ljava/lang/Throwable;)Z
+    .locals 1
+    .parameter "throwable"
+
+    .prologue
+    .line 22
+    iget-object v0, p0, Lcom/etao/kakalib/business/resultprocesser/KakaLibDecodeResultQrFromAlbumAccessMtopProcesser;->barCodeDialogHelper:Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;
+
+    if-eqz v0, :cond_0
+
+    .line 23
+    iget-object v0, p0, Lcom/etao/kakalib/business/resultprocesser/KakaLibDecodeResultQrFromAlbumAccessMtopProcesser;->barCodeDialogHelper:Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;
+
+    invoke-virtual {v0}, Lcom/etao/kakalib/util/dialoghelper/KakaLibBarCodeDialogHelper;->showNoQRCodeFoundDialog()V
+
+    .line 24
+    const/4 v0, 0x1
+
+    .line 26
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method

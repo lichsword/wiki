@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/BgImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <include layout="@layout/layout_setting_banner" />
+    <LinearLayout style="@style/setting_panel_wrap">
+        <RelativeLayout style="@style/setting_activity_header">
+            <Button android:id="@id/BackImageView" android:text="@string/adi_lock_account_title" android:onClick="onClick" style="@style/setting_header_title" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bind_accts_tb" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/setting_content_container" />
+    </LinearLayout>
+</RelativeLayout>

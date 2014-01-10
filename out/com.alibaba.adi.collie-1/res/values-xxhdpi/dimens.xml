@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="yuebao_annual_rate_top">0.0dip</dimen>
+    <dimen name="pull_down_tips_height">26.0dip</dimen>
+    <dimen name="page_text_size">40.0sp</dimen>
+    <dimen name="page_header_height">0.0dip</dimen>
+    <dimen name="page_title_margin_top">28.0dip</dimen>
+    <dimen name="page_title_top">31.0dip</dimen>
+    <dimen name="page_title_bottom">24.0dip</dimen>
+    <dimen name="page_padding_left">15.0dip</dimen>
+    <dimen name="page_padding_right">15.0dip</dimen>
+    <dimen name="page_header_title_top">70.0dip</dimen>
+    <dimen name="news_title_text_size">26.0sp</dimen>
+    <dimen name="news_title_line_spacing">5.0sp</dimen>
+    <dimen name="news_content_text_size">16.0sp</dimen>
+    <dimen name="news_attach_text_size">12.0sp</dimen>
+    <dimen name="news_attach_padding_top">1.0dip</dimen>
+    <dimen name="news_attach_padding_bottom">18.0dip</dimen>
+    <dimen name="news_update_time_padding_left">20.0dip</dimen>
+    <dimen name="news_summary_line_spacing">5.0sp</dimen>
+    <dimen name="news_list_divider_height">1.0px</dimen>
+    <dimen name="news_list_fading_length">14.599976dip</dimen>
+    <dimen name="news_list_margin_top">0.0dip</dimen>
+    <dimen name="news_list_margin_bottom">10.0dip</dimen>
+    <dimen name="news_item_padding_top">20.0dip</dimen>
+    <dimen name="news_item_padding_bottom">20.0dip</dimen>
+    <dimen name="news_item_margin_top">0.0dip</dimen>
+    <dimen name="news_item_margin_bottom">0.0dip</dimen>
+    <dimen name="joke_item_padding_top">23.0dip</dimen>
+    <dimen name="joke_item_padding_bottom">0.0dip</dimen>
+    <dimen name="joke_item_margin_top">0.0dip</dimen>
+    <dimen name="joke_item_margin_bottom">0.0dip</dimen>
+    <dimen name="joke_text_padding_top">4.0dip</dimen>
+    <dimen name="joke_text_line_spacing">5.0sp</dimen>
+    <dimen name="joke_image_text_line_spacing">5.0sp</dimen>
+    <dimen name="joke_image_margin_top">3.0dip</dimen>
+    <dimen name="joke_image_margin_bottom">10.0dip</dimen>
+    <dimen name="textsize_12">12.0sp</dimen>
+    <dimen name="textsize_13">13.0sp</dimen>
+    <dimen name="textsize_14">14.0sp</dimen>
+    <dimen name="textsize_16">16.0sp</dimen>
+    <dimen name="textsize_18">18.0sp</dimen>
+    <dimen name="textsize_20">20.0sp</dimen>
+    <dimen name="textsize_22">22.0sp</dimen>
+    <item type="dimen" name="system_call_sms_date">@dimen/textsize_12</item>
+    <item type="dimen" name="system_call_replay_textsize">@dimen/textsize_16</item>
+    <item type="dimen" name="system_item_cont_textsize">@dimen/textsize_16</item>
+    <item type="dimen" name="system_call_sms_name_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="system_clear_pop_textsize">@dimen/textsize_20</item>
+    <item type="dimen" name="system_summary_textsize">@dimen/textsize_20</item>
+    <item type="dimen" name="setting_main_title_textsize">@dimen/textsize_20</item>
+    <item type="dimen" name="setting_main_list_name_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="setting_main_des_textsize">@dimen/textsize_13</item>
+    <item type="dimen" name="setting_versin_h1_textsize">@dimen/textsize_20</item>
+    <item type="dimen" name="setting_versin_other_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="setting_versin_download_tip_textsize">@dimen/textsize_16</item>
+    <item type="dimen" name="setting_versin_download_progress_textsize">@dimen/textsize_22</item>
+    <item type="dimen" name="setting_page_mamager_h1_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="setting_page_mamager_des_textsize">@dimen/textsize_13</item>
+    <item type="dimen" name="setting_account_h1_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="setting_account_h2_textsize">@dimen/textsize_13</item>
+    <item type="dimen" name="setting_account_h3_textsize">@dimen/textsize_16</item>
+    <item type="dimen" name="setting_privacy_h1_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="setting_wallpaper_title_textsize">@dimen/textsize_20</item>
+    <item type="dimen" name="setting_wallpaper_subtitle_textsize">@dimen/textsize_18</item>
+    <item type="dimen" name="setting_feedback_title_textsize">@dimen/textsize_20</item>
+    <item type="dimen" name="setting_feedback_btnsubmit_textsize">@dimen/textsize_14</item>
+    <item type="dimen" name="setting_feedback_edit_textsize">@dimen/textsize_18</item>
+    <dimen name="home_container_layout_marginTop">105.0dip</dimen>
+    <dimen name="home_time_container_layout_marginBottom">-25.0dip</dimen>
+    <dimen name="home_time_container_layout_marginLeft">13.0dip</dimen>
+    <dimen name="home_time_container_hour_textSize">75.0dip</dimen>
+    <dimen name="home_time_container_timeicon_layout_marginRight">10.0dip</dimen>
+    <dimen name="home_time_container_timeicon_layout_marginLeft">15.0dip</dimen>
+    <dimen name="home_time_container_minute_textSize">75.0dip</dimen>
+    <dimen name="home_date_container_layout_marginTop">13.0dip</dimen>
+    <dimen name="home_date_container_layout_marginLeft">15.0dip</dimen>
+    <dimen name="home_date_container_date_layout_marginRigh">8.0dip</dimen>
+    <dimen name="home_date_container_date_textSize">18.0dip</dimen>
+    <dimen name="home_date_container_week_textSize">18.0dip</dimen>
+    <dimen name="home_city_container_layout_marginTop">-3.0dip</dimen>
+    <dimen name="home_city_container_city_layout_marginRight">10.0dip</dimen>
+    <dimen name="home_city_container_city_textSize">18.0dip</dimen>
+    <dimen name="home_city_container_weather_layout_marginRight">11.0dip</dimen>
+    <dimen name="home_city_container_weather_textSize">18.0dip</dimen>
+    <dimen name="home_city_container_temperature_layout_marginRight">10.0dip</dimen>
+    <dimen name="home_city_container_temperature_line_layout_marginRight">11.0dip</dimen>
+    <dimen name="home_city_container_temperature_line_layout_marginLeft">1.0dip</dimen>
+    <dimen name="home_city_container_temperature_line_layout_height">15.0dip</dimen>
+    <dimen name="home_city_container_temperature_line_layout_marginTop">4.0dip</dimen>
+    <dimen name="home_city_container_temperaturer_textSize">18.0dip</dimen>
+    <dimen name="home_city_container_l_h_temperature_textSize">14.0dip</dimen>
+    <dimen name="home_unkonw_weather_textSize">12.0dip</dimen>
+    <dimen name="home_unkonw_weather_marginTop">25.0dip</dimen>
+    <dimen name="home_shortcut_container_weather_layout_marginTo">75.0dip</dimen>
+    <dimen name="home_shortcut_container_iconContainer_layout_marginLeft">4.0dip</dimen>
+    <dimen name="home_shortcut_container_iconContainer_layout_marginRight">4.0dip</dimen>
+    <dimen name="home_shortcut_container_text_textSize">12.0dip</dimen>
+    <dimen name="public_home_shortcut_icon_paddingBottom">15.0dip</dimen>
+    <dimen name="public_home_shortcut_icon_paddingRight">7.0dip</dimen>
+    <dimen name="public_home_shortcut_icon_paddingTop">15.0dip</dimen>
+    <dimen name="home_music_container_layout_marginBottom">40.0dip</dimen>
+    <dimen name="home_music_container_layout_height">50.0dip</dimen>
+    <dimen name="home_music_container_pre_button_layout_width">100.0dip</dimen>
+    <dimen name="home_music_container_pre_button_layout_marginLef">5.0dip</dimen>
+    <dimen name="home_music_container_pre_button_layout_marginRight">5.0dip</dimen>
+    <dimen name="home_music_container_play_button_layout_width">100.0dip</dimen>
+    <dimen name="home_music_container_next_button_layout_width">100.0dip</dimen>
+    <dimen name="home_charging_container_text_layout_marginTop">15.0dip</dimen>
+    <dimen name="home_charging_container_text_textSize">16.0sp</dimen>
+    <dimen name="home_pager_set_and_camera_bg_paddingBottom">25.0dip</dimen>
+    <dimen name="home_pager_viewpager_layout_marginBotto">48.0dip</dimen>
+    <dimen name="home_pager_navigation_container_layout_height">30.0dip</dimen>
+    <dimen name="home_pager_navigation_container_paddingTop">9.0dip</dimen>
+    <dimen name="home_pager_navigation_time_textSize">13.0sp</dimen>
+    <dimen name="home_pager_navigation_time_layout_marginTop">-2.0dip</dimen>
+    <dimen name="home_pager_navigation_time_layout_marginLeft">10.0dip</dimen>
+    <dimen name="home_pager_bottom_tool_container_layout_height">48.0dip</dimen>
+    <dimen name="home_pager_bottom_setting_button_layout_width">60.0dip</dimen>
+    <dimen name="home_pager_bottom_setting_button_layout_height">60.0dip</dimen>
+    <dimen name="home_pager_bottom_mark_img_layout_marginTop">12.0dip</dimen>
+    <dimen name="home_pager_bottom_mark_img_layout_marginRight">18.0dip</dimen>
+    <dimen name="home_pager_bottom_unlock_layout_width">24.0dip</dimen>
+    <dimen name="home_pager_bottom_unlock_layout_height">15.5dip</dimen>
+    <dimen name="home_pager_bottom_unlock_layout_marginBottom">16.0dip</dimen>
+    <dimen name="home_pager_bottom_camera_layout_width">60.0dip</dimen>
+    <dimen name="home_pager_bottom_camera_layout_height">60.0dip</dimen>
+    <dimen name="home_pager_guide_one_text_textSize">16.0sp</dimen>
+    <dimen name="home_pager_guide_three_img_layout_marginLeft">20.0dip</dimen>
+    <dimen name="home_pager_jump_but_text_layout_width">90.0dip</dimen>
+    <dimen name="home_pager_jump_but_text_layout_height">45.0dip</dimen>
+    <dimen name="home_pager_jump_but_text_layout_marginBottom">50.0dip</dimen>
+    <dimen name="home_pager_jump_but_text_layout_marginRight">18.0dip</dimen>
+    <dimen name="home_pager_jump_but_text_textSize">16.0sp</dimen>
+    <dimen name="guide_finger_tip_textsize">21.0sp</dimen>
+    <dimen name="guide_tip_title_textsize">16.0sp</dimen>
+    <dimen name="guide_tip_content_textsize">40.0sp</dimen>
+    <dimen name="guide_tip_attach_textsize">26.0sp</dimen>
+    <dimen name="guide_swipe_width">70.0dip</dimen>
+    <dimen name="guide_swipe_height">24.0dip</dimen>
+    <dimen name="unlock_text_tip">12.0dip</dimen>
+    <dimen name="unlock_number_input_margin_bottom">20.0dip</dimen>
+    <dimen name="unlock_number_keyboard_marginLeft">15.0dip</dimen>
+    <dimen name="unlock_number_keyboard_marginRight">15.0dip</dimen>
+    <dimen name="unlock_number_keycell_width">100.0dip</dimen>
+    <dimen name="unlock_number_keycell_height">90.0dip</dimen>
+    <dimen name="unlock_number_button_margin_top">15.0dip</dimen>
+    <dimen name="widget_share_text_fontSize">18.0dip</dimen>
+    <dimen name="home_push_center_text_fontSize">15.0dip</dimen>
+    <dimen name="home_push_top_text_fontSize">15.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="item_title_text_size">25.0sp</dimen>
+    <dimen name="settings_header_height">70.0dip</dimen>
+    <dimen name="setting_header_divide_height">3.0px</dimen>
+    <dimen name="setting_content_divide_height">1.0px</dimen>
+    <dimen name="setting_content_header_height">26.0dip</dimen>
+    <dimen name="setting_panel_margin_left">15.0dip</dimen>
+    <dimen name="setting_panel_margin_right">15.0dip</dimen>
+    <dimen name="detail_margin">6.0dip</dimen>
+    <dimen name="detail_margin_top">8.0dip</dimen>
+    <dimen name="settings_margin_left">8.0dip</dimen>
+    <dimen name="settings_margin_right">8.0dip</dimen>
+    <dimen name="settings_item_height">60.0dip</dimen>
+    <dimen name="settings_item_height_top">46.0dip</dimen>
+    <dimen name="settings_item_height_middle">70.0dip</dimen>
+    <dimen name="common_item_margin">7.0dip</dimen>
+    <dimen name="settings_title_height">70.0dip</dimen>
+    <dimen name="settings_upgrade_btn_margin_left">24.0dip</dimen>
+    <dimen name="settings_upgrade_btn_margin_right">24.0dip</dimen>
+    <dimen name="settings_qrcode_padding_top">32.0dip</dimen>
+    <dimen name="settings_qrcode_padding_bottom">30.0dip</dimen>
+    <dimen name="setting_qrcode_textview_top">7.0dip</dimen>
+    <dimen name="setting_qrcode_textview_line_spacing">7.0dip</dimen>
+    <dimen name="setting_qrcode_border_width">2.0dip</dimen>
+    <dimen name="home_hour_point_margin">10.0dip</dimen>
+    <dimen name="home_min_point_margin">8.0dip</dimen>
+    <dimen name="home_time_date_margin">25.0dip</dimen>
+    <dimen name="home_week_date_margin">8.0dip</dimen>
+    <dimen name="home_weather_date_margin">20.0dip</dimen>
+    <dimen name="home_icon_to_icon_margin">7.0dip</dimen>
+    <dimen name="home_page_indication_height">30.0dip</dimen>
+    <dimen name="taobao_margin">40.0dip</dimen>
+    <dimen name="taobao_chart_height">250.0dip</dimen>
+    <dimen name="taobao_yeb_chart_height">15.0dip</dimen>
+    <dimen name="taobao_25_height">25.0dip</dimen>
+    <dimen name="news_image_margin_top">0.0dip</dimen>
+    <dimen name="news_image_margin_bottom">18.0dip</dimen>
+    <dimen name="news_image_loading_height">165.0dip</dimen>
+    <dimen name="news_image_progress_width">60.0dip</dimen>
+    <dimen name="news_image_progress_height">60.0dip</dimen>
+    <dimen name="joke_image_loading_height">165.0dip</dimen>
+    <dimen name="joke_image_progress_width">60.0dip</dimen>
+    <dimen name="joke_image_progress_height">60.0dip</dimen>
+    <dimen name="system_sms_privacy_height">80.0dip</dimen>
+    <dimen name="home_pager_jump_but_text_padding_vertical">5.0sp</dimen>
+    <dimen name="home_pager_jump_but_text_padding_horizontal">10.0sp</dimen>
+    <dimen name="guide_tip_title_left">30.0dip</dimen>
+    <dimen name="guide_tip_content_top">22.0dip</dimen>
+    <dimen name="guide_tip_attach_top">-2.0dip</dimen>
+    <dimen name="about_eula_content_top">20.0dip</dimen>
+    <dimen name="about_privacy_content_top">20.0dip</dimen>
+    <dimen name="about_content_text_line_spacing">5.0dip</dimen>
+</resources>

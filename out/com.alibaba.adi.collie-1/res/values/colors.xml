@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="none">#00000000</color>
+    <color name="dot">#ffffffff</color>
+    <color name="home_text_color">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="news_item_normal">#23000000</color>
+    <color name="news_item_highlighted">#4b0088ee</color>
+    <color name="white_alph_50">#55ffffff</color>
+    <color name="white_alph_60">#99ffffff</color>
+    <color name="logistic_bg">#99ff8800</color>
+    <color name="page_title_text_color">#ffffffff</color>
+    <color name="news_attach_text_color">#7fffffff</color>
+    <color name="news_image_loading_background">#16ffffff</color>
+    <color name="joke_text_shadow_color">#ff000000</color>
+    <color name="joke_image_loading_background">#16ffffff</color>
+    <color name="K_black_light_6">#ffe5e5e5</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="D_black_light_1">#ff333333</color>
+    <color name="bg_card_color">#ff202020</color>
+    <color name="kakalib_color_gray">#ff999999</color>
+    <color name="kakalib_color_black">#ff666666</color>
+    <color name="kakalib_color_dark_grey">#ffaaaaaa</color>
+    <color name="kakalib_color_light_grey">#ff777777</color>
+    <color name="kakalib_color_line">#88dddddd</color>
+    <color name="kakalib_color_from_huoyan">#ffaaaaaa</color>
+    <color name="kakalib_bg_card_color_press">#4c000000</color>
+    <color name="transparent_background">#00000000</color>
+</resources>

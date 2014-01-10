@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/qr_dialog_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/kakalib_adi_title_product" style="@style/qr_dialog_title" />
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_title_border" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/qr_dialog_container">
+        <ImageView android:layout_width="@dimen/qr_dialog_icon_width" android:layout_height="@dimen/qr_dialog_icon_height" android:layout_marginRight="12.0dip" android:src="@drawable/qr_scan_unknown_code" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/barCode" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/qr_dialog_text_content_info" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/kakalib_ugc_will_update" style="@style/qr_dialog_text_content_small" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_ctrl_border" />
+    <Button android:id="@id/CancelButton" android:text="@string/cancel" style="@style/qr_dialog_cancel_button" />
+</LinearLayout>

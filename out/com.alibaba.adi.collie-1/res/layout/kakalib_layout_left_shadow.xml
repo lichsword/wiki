@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/corner_lt" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_lu" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lt_shadow0" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_lu" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lt_shadow1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_lu" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lt_shadow2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_lu" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lb" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ld" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lb_shadow0" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ld" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lb_shadow1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ld" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_lb_shadow2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ld" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rt" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ru" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rt_shadow0" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ru" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rt_shadow1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ru" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rt_shadow2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_ru" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rb" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_rd" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rb_shadow0" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_rd" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rb_shadow1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_rd" android:scaleType="centerInside" />
+    <ImageView android:id="@id/corner_rb_shadow2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/kakalib_hud_aimingbox_rd" android:scaleType="centerInside" />
+</FrameLayout>

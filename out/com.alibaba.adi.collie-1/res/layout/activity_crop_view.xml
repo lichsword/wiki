@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:layout_gravity="center" android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.alibaba.adi.collie.ui.crop.view.CropImageView" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:onClick="onClick" style="@style/setting_unlock_btn" />
+        <Button android:id="@id/crop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/crop" android:onClick="onClick" style="@style/setting_unlock_btn" />
+    </LinearLayout>
+</RelativeLayout>

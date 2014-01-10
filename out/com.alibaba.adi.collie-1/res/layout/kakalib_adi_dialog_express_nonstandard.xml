@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/qr_dialog_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/kakalib_adi_title_express" style="@style/qr_dialog_title" />
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_title_border" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/qr_dialog_container">
+        <ImageView android:id="@id/img_express_dialog" android:layout_width="@dimen/qr_dialog_icon_size" android:layout_height="@dimen/qr_dialog_icon_size" android:src="@drawable/qr_scan_express" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <TextView android:id="@id/txt_express_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/kakalib_unkown_code_type" android:layout_toRightOf="@id/img_express_dialog" android:layout_alignParentRight="true" style="@style/qr_dialog_text_content" />
+        <TextView android:id="@id/txt_express_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/txt_express_title" android:layout_alignLeft="@id/txt_express_title" android:layout_alignParentRight="true" style="@style/qr_dialog_text_content_small" />
+        <TextView android:textStyle="bold" android:id="@id/txt_express_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kakalib_unkown_code_as_express" android:layout_below="@id/txt_express_id" style="@style/qr_dialog_text_content_small" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/txt_express_select">
+            <Button android:id="@id/ExpressLink1" android:layout_marginTop="10.0dip" style="@style/qr_dialog_content_button" />
+            <Button android:id="@id/ExpressLink2" android:layout_marginTop="10.0dip" style="@style/qr_dialog_content_button" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" style="@style/qr_dialog_ctrl_border" />
+    <Button android:id="@id/CancelButton" android:text="@string/cancel" style="@style/qr_dialog_cancel_button" />
+</LinearLayout>
