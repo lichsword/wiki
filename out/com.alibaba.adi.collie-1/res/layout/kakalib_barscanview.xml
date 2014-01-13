@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/bar_scan_box" android:layout_width="@dimen/barscan_preview_decode_size" android:layout_height="@dimen/barscan_preview_decode_size"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/bar_scan_net" android:background="@drawable/kakalib_scan_ray" android:layout_width="@dimen/barscan_preview_decode_size" android:layout_height="@dimen/barscan_preview_decode_size" android:layout_centerHorizontal="true" />
-</RelativeLayout>

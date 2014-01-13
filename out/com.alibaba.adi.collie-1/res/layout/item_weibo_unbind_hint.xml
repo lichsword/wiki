@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="13.0sp" android:textColor="#ccffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/weibo_unbind_hint" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/weiboInvalidLayout" android:background="@drawable/btn_ff8800" android:layout_width="fill_parent" android:layout_height="50.0dip">
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_weibo" />
-        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/bindWeiboAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/weibo_bind_btn_hint" />
-    </LinearLayout>
-</LinearLayout>

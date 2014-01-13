@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/channelIcons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/user_guide_channel_icon" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="105.0dip" android:src="@drawable/guide_s1_1" android:layout_alignParentLeft="true" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/guide_s1_2" android:layout_alignTop="@id/imageRight" android:layout_alignParentLeft="true" />
-    <ImageView android:id="@id/imageRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/guide_s1_3" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:src="@drawable/guide_s1_4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

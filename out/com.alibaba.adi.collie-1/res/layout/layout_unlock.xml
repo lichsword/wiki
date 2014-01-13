@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.alibaba.adi.collie.ui.view.MyRelativeLayout android:id="@id/LockLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_horizontal" android:id="@id/pull_image" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unlock_grab" />
-    <com.alibaba.adi.collie.ui.lock.view.LockPatternViewLinearLayout android:gravity="center_horizontal" android:id="@id/LockPatternLayout" android:paddingTop="32.0dip" android:paddingBottom="60.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <com.alibaba.adi.collie.ui.lock.view.LockNumViewLinearLayout android:id="@id/LockNumLayout" android:paddingTop="32.0dip" android:paddingBottom="35.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</com.alibaba.adi.collie.ui.view.MyRelativeLayout>

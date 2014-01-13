@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textColor="@color/home_text_color" android:id="@id/all_order" android:background="@drawable/common_touch_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/taobao_order_all" android:layout_alignParentLeft="true" />
-    <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:id="@id/yuebao_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/page_title_bottom" android:text="@string/taobao_yuebao" android:layout_below="@id/all_order" />
-    <View android:id="@id/line" android:background="@color/white_alph_50" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/taobao_yeb_chart_height" android:layout_below="@id/yuebao_text" />
-    <com.alibaba.adi.collie.ui.view.ChartView android:id="@id/yuebao_chart" android:background="@drawable/common_touch_bg" android:layout_width="fill_parent" android:layout_height="@dimen/taobao_chart_height" android:layout_marginTop="@dimen/taobao_yeb_chart_height" android:layout_below="@id/line" />
-    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/yuebao_annual_rate" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yuebao_annual_rate_top" android:layout_below="@id/yuebao_chart" android:layout_centerHorizontal="true" />
-</RelativeLayout>

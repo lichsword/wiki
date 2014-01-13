@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="horizontal" android:id="@id/ChannelBannerLayout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="36.0dip">
-        <ImageView android:id="@id/DotImageView" android:background="@drawable/icon_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
-        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/TitleTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:text="@string/app_name" android:layout_toLeftOf="@id/ArrowRightImageView" android:layout_toRightOf="@id/DotImageView" />
-        <ImageView android:id="@id/ArrowRightImageView" android:background="@drawable/icon_home_channel_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</LinearLayout>

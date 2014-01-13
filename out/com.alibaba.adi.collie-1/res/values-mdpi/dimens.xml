@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="unlock_text_tip">6.0dip</dimen>
-    <dimen name="unlock_number_input_margin_bottom">12.0dip</dimen>
-    <dimen name="unlock_number_keycell_width">80.0dip</dimen>
-    <dimen name="unlock_number_keycell_height">73.0dip</dimen>
-    <dimen name="unlock_number_button_margin_top">10.0dip</dimen>
-</resources>

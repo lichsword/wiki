@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:id="@id/share_app_icon" android:background="@drawable/share_weibo_icon" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/btn_share_selector" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:contentDescription="@null" />
-    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="bottom|center" android:id="@id/share_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="\#ffffff" android:singleLine="true" android:layout_below="@id/share_app_icon" android:layout_centerHorizontal="true" />
-</RelativeLayout>

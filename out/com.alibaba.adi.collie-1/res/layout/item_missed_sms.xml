@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/test" android:background="@drawable/common_touch_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:layout_gravity="left|center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name" style="@style/sms_name" />
-        <TextView android:layout_gravity="right|center" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="date" style="@style/sms_date_multi" />
-    </FrameLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

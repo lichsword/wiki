@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="top" android:id="@id/kakalib_nav_express" android:layout_width="fill_parent" android:layout_height="@dimen/kakalib_nav_height" android:text="@string/kakalib_express_info" />
-    <ListView android:id="@id/activity_express_sections" android:background="@*android:color/transparent" android:focusable="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:listSelector="@*android:color/transparent" android:cacheColorHint="#00000000" android:divider="#ff484848" android:dividerHeight="1.0px" android:layout_below="@id/kakalib_nav_express" />
-</RelativeLayout>
