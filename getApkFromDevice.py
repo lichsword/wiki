@@ -36,6 +36,7 @@ def do(packageName):
         renameCmd="mv %s %s" %(oldpath, newpath)
         os.system(renameCmd)
     
+    os.system('open %s' %(dir))
     print '完成：apk文件已经输出至out/目录'
 
 num=len(sys.argv)

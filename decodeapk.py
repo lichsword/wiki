@@ -11,13 +11,16 @@ def desc():
 def do(packageName):
     desc()
     apkfile='out/apk/%s.apk' %(packageName)
-    outfile='out/%s-dex2jar.jar' %(packageName)
+    outdir='out/code/'
+    outfile='%s%s-dex2jar.jar' %(outdir, packageName)
 # -v show progress
 # -f force override
 # -o output out-jar-file    
     cmd='bin/dex2jar-0.0.9.15/d2j-dex2jar.sh -f -o %s %s' %(outfile, apkfile)
     os.system(cmd)
     print('完成：生成源代码文件'+outfile)
+    os.system('open %s' %(outdir))
+    
 
 def usage():
     desc()

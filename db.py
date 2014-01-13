@@ -15,6 +15,7 @@ def do(packageName):
     dir='out/db/%s/databases' %(packageName)
     cmd='adb pull %s %s' %(src, dir)
     os.system(cmd)
+    os.system('open %s' %(dir))
     tip='完成：请至/out/db/%s/databases目录中查看' %(packageName)
     print(tip)
 

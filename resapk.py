@@ -11,9 +11,10 @@ def desc():
 def do(packageName):
     desc()
     apkfile='out/apk/%s.apk' %(packageName)
-    dir='out/code/%s' %(packageName)
+    dir='out/res/%s' %(packageName)
     cmd='java -jar bin/apktool.jar d -f %s %s' %(apkfile, dir)
     os.system(cmd)
+    os.system('open %s' %(dir))
 
 def usage():
     desc()
