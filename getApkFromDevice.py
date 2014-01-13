@@ -22,6 +22,8 @@ def do(packageName):
     desc()
     APK_DIR='/data/app/'
     dir='out/apk/'
+    cmdMkdir='mkdir %s' %(dir)
+    os.system(cmdMkdir)
     target="%s.apk" %(packageName)
     
     #loop to pull
