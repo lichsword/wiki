@@ -1,4 +1,19 @@
 (1)vimcdoc-1.5.0.tar.gz    vim Chinese manual.
-    unzip, enter root dir, exe './vimcdoc.sh -i' to install; exe './vimcdoc.sh -u' to uninstall it.
+    unzip, enter root dir, 
+    usage:
+    (a)exe './vimcdoc.sh -i' to install.
+    (b)exe './vimcdoc.sh -u' to uninstall it.
+    (c)enter ':help' will see Chinese manual.
 (2)nerdtree.zip            vim file exploer
     unzip, copy child dir doc/;plugin/;syntax/ to ~/.vim each child dir.
+    usage:
+    (a)enter ':NERDTree' to open file exploer tree.
+    (b)enter ':q' to close it.
+(3)ctags                   vim view/locate source code.
+    in mac OSX terminate: sudo port install ctags, will finish download-install workflowy.
+    usage:
+    (a)Ctrl+w w to switch windows.
+    (b)Press 'h,j,k,l' to move cursor on every element.
+    (c)press 'enter' key goto source code position.
+    (d)Press 'space' key direct view element's declaration in bottom line of vim's window.
+
