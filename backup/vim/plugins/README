@@ -1,0 +1,4 @@
+(1)vimcdoc-1.5.0.tar.gz    vim Chinese manual.
+    unzip, enter root dir, exe './vimcdoc.sh -i' to install; exe './vimcdoc.sh -u' to uninstall it.
+(2)nerdtree.zip            vim file exploer
+    unzip, copy child dir doc/;plugin/;syntax/ to ~/.vim each child dir.
