@@ -12,8 +12,33 @@
 (3)ctags                   vim view/locate source code.
     in mac OSX terminate: sudo port install ctags, will finish download-install workflowy.
     usage:
-    (a)Ctrl+w w to switch windows.
+    (a)Ctrl+W W to switch windows.
     (b)Press 'h,j,k,l' to move cursor on every element.
     (c)press 'enter' key goto source code position.
     (d)Press 'space' key direct view element's declaration in bottom line of vim's window.
-
+    (e)enter ':tags' to see include head file link.
+(4)vundle(Complie Bug!!! Not use it)                 vim plugins manager		
+    Vundle, the plug-in manager for Vim http://github.com/gmarik/vundle
+    usage:
+    (a)see https://github.com/gmarik/vundle#about
+(5)Code Auto Tip:          vim command(Not A Plug-in!!!)  *_*
+    (a)Ctrl+P to invoke Code Auto Tip Dialog. 
+    (b)Press up/down arrow to browser methods.
+    (c)call/defiine jump:
+    	(1)Ctrl+] to jump from func call to func define.
+	(2)Ctrl+T to jump from func define to call.
+(6)a plugin:               Head/C file swtich  *_*
+    a plugin, the a(named) plugin download from http://vim.sourceforge.net/scripts/script.php?script_id=31
+    (a)enter ':A' to switch same name head file, and start edit.
+    (b)enter ':A' again, to Inverse.
+    (c)Other commands:
+	:A switches to the header file corresponding to the current file being edited (or vise versa) 
+	:AS splits and switches 
+	:AV vertical splits and switches 
+	:AT new tab and switches 
+	:AN cycles through matches 
+	:IH switches to file under cursor 
+	:IHS splits and switches 
+	:IHV vertical splits and switches 
+	:IHT new tab and switches 
+	:IHN cycles through matches 
