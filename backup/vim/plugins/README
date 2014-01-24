@@ -17,6 +17,7 @@
     (c)press 'enter' key goto source code position.
     (d)Press 'space' key direct view element's declaration in bottom line of vim's window.
     (e)enter ':tags' to see include head file link.
+    (f)More vimrc script, see: http://vim-taglist.sourceforge.net/manual.html#taglist-options
 (4)vundle(Complie Bug!!! Not use it)                 vim plugins manager		
     Vundle, the plug-in manager for Vim http://github.com/gmarik/vundle
     usage:
