@@ -1,0 +1,32 @@
+#container {width:1212px;}
+#container #title{
+	font-size: 40px; color: #fff;
+	background: url('logo_bg_v5.jpg') no-repeat scroll center center transparent;height:50px;}
+
+#navigation {padding:2px 0 25px 0; background:#3c3c3c;} /* 设置导航栏背景 */
+#navigation ul{list-style:none;} /* 把默认的圆点清除 */
+#navigation li{float:left; width:100px;} /* 水平居左, 宽度为100px */
+#navigation a:link{color:#666;background:#CCC;text-decoration:none;} /* 默认链接 */
+#navigation a:visited{color:#666;text-decoration: none;} /* 点击后 */
+#navigation a:hover{color:#FFF; font-weight:bold;text-decoration:underline;background:#F00;} /* 悬停 */
+
+#menu {
+	/* 边框2px 实线 黑色 */
+	margin: 2px 0 20px 0;background:#bebebe; width: 200px; height: 350px ;float: left; border: 2px solid #000
+}
+
+#menu ul{list-style:none;} /* 把默认的圆点清除 */
+#menu li{float:top; width:100px;} /* 水平居左, 宽度为100px */
+#menu a:link{color:#666;background:#CCC;text-decoration:none;} /* 默认链接 */
+#menu a:visited{color:#666;text-decoration: none;} /* 点击后 */
+#menu a:hover{color:#FFF; font-weight:bold;text-decoration:underline;background:#0000ff;} /* 悬停 */
+
+#content {
+	margin: 2px 0 0px 10px;background:#716B7A; width: 998px; height: 354px; float: left; color: #46A3FF;
+}
+#content h1{
+	float: left;
+}
+#content img{
+	margin-left: 20px;
+}

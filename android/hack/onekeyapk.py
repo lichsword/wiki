@@ -9,6 +9,7 @@ import openjdgui
 def desc():
     print '*------------------------------------*'
     print '| 功能：一键解析apk'
+    print '| 包名查询:adb shell-->cd data/app'
     print '*------------------------------------*'
 
 def usage():
